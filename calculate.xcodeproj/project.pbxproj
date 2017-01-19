@@ -16,6 +16,7 @@
 		5D4176AA1E2E0AE90021E83B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4176A81E2E0AE90021E83B /* LaunchScreen.storyboard */; };
 		5D4176B51E2E0AE90021E83B /* calculateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4176B41E2E0AE90021E83B /* calculateTests.m */; };
 		5D4176C01E2E0AE90021E83B /* calculateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4176BF1E2E0AE90021E83B /* calculateUITests.m */; };
+		5D4176CF1E2E12340021E83B /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4176CE1E2E12340021E83B /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5D4176BB1E2E0AE90021E83B /* calculateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D4176BF1E2E0AE90021E83B /* calculateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculateUITests.m; sourceTree = "<group>"; };
 		5D4176C11E2E0AE90021E83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D4176CD1E2E12340021E83B /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		5D4176CE1E2E12340021E83B /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				5D41769B1E2E0AE90021E83B /* AppDelegate.m */,
 				5D41769D1E2E0AE90021E83B /* ViewController.h */,
 				5D41769E1E2E0AE90021E83B /* ViewController.m */,
+				5D4176CD1E2E12340021E83B /* CollectionViewCell.h */,
+				5D4176CE1E2E12340021E83B /* CollectionViewCell.m */,
 				5D4176A01E2E0AE90021E83B /* Main.storyboard */,
 				5D4176A61E2E0AE90021E83B /* Assets.xcassets */,
 				5D4176A81E2E0AE90021E83B /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D4176A51E2E0AE90021E83B /* calculate.xcdatamodeld in Sources */,
+				5D4176CF1E2E12340021E83B /* CollectionViewCell.m in Sources */,
 				5D41769F1E2E0AE90021E83B /* ViewController.m in Sources */,
 				5D41769C1E2E0AE90021E83B /* AppDelegate.m in Sources */,
 				5D4176991E2E0AE90021E83B /* main.m in Sources */,
